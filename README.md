@@ -124,17 +124,17 @@ def convolutional_model():
 
     return model
 model = convolutional_model()
-training_history = model.fit(training_images, training_labels, epochs=10, callbacks=[EarlyStoppingCallback()])
+training_history = model.fit(training_images, training_labels, epochs=2, callbacks=[EarlyStoppingCallback()])
 
 ```
 ## OUTPUT
 ### Reshape and Normalize output
 
-![image](https://github.com/user-attachments/assets/f024a488-c003-49bb-92e0-7a3514fc475f)
+![image](https://github.com/user-attachments/assets/513d772b-ce0e-4156-b4f7-dd08213aa822)
 
 ### Training the model output
 
-![image](https://github.com/user-attachments/assets/6904b3ae-42ee-4322-89ec-ecb9e2bb10ef)
+![image](https://github.com/user-attachments/assets/7abe369c-8449-413a-9991-50499145c43b)
 
 ## RESULT
 Thus the program for developing a convolutional deep neural network for digit classification.
